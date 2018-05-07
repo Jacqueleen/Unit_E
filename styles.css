@@ -96,3 +96,19 @@ body {
     text-align: right;
     background-color: rgb(189,204,212);
  }
+
+ /* print styles */
+ @media print {
+   body, h1, article, footer{
+     color: #000;
+     background-color: #fff;
+   }
+   body {
+     max-width: 100%;
+     border: 0;
+   }
+ }
+
+ @page {
+   margin: 1in;
+ }
